@@ -18,7 +18,7 @@ try:
     chrome_options.add_argument('--window-size=1920,1080')
     
     # 크롬 드라이버 설정
-    service = Service('chromedriver.exe')  # 크롬 드라이버 경로를 적절히 수정하세요
+    service = Service('/Users/baeminseo/Desktop/python/bigdata_project/chromedriver')  # 크롬 드라이버 경로를 적절히 수정하세요
     driver = webdriver.Chrome(service=service, options=chrome_options)
 except Exception as e:
     print(f"웹 드라이버 초기화 오류: {e}")
