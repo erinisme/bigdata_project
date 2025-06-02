@@ -16,7 +16,7 @@ try:
     # 다운로드 받은 크롬 드라이버 경로를 입력하세요.
     # 예: service = Service('C:/WebDriver/chromedriver.exe') # Windows
     # 예: service = Service('/Users/yourname/webdriver/chromedriver') # macOS/Linux
-    service = Service('chromedriver') # <-- 이 부분을 수정하세요.
+    service = Service('/Users/baeminseo/Desktop/python/bigdata_project/chromedriver') # <-- 이 부분을 수정하세요.
     driver = webdriver.Chrome(service=service)
 except Exception as e:
     print(f"웹 드라이버 초기화 오류: {e}")
